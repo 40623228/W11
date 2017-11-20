@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Fall CADP&amp;CP (虎尾科大MDE) - Course</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/" rel="alternate"></link><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/feeds/course.atom.xml" rel="self"></link><id>https://cpb.kmol.info/40623228/doc/trunk/blog/</id><updated>2017-11-13T17:00:00+08:00</updated><entry><title>計算機程式CPB 第十週</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w10.html" rel="alternate"></link><published>2017-11-13T17:00:00+08:00</published><updated>2017-11-13T17:00:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-11-13:/40623228/doc/trunk/blog/40623228-w10.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.將隨身系統客製化為自己方便使用的系統&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.將隨身系統客製化為自己方便使用的系統&lt;/p&gt;
+
+
+&lt;p&gt;如: 在開起隨身系統時把Leo同時開啟&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;%Disk%:\python36\python.exe %Disk%:\launchLeo.py&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;在開起Leo時把個人的網誌同時開啟 加入下面程式碼:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;leo.core.runLeo.run(fileName=&amp;quot;y:/tmp/fossil/wd/28/users/28.leo&amp;quot;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;2.下載並學習Dia portable , Gimp portable&lt;/p&gt;
+&lt;p&gt;3.Eric6開啟新的專案 設置 directory 與 Main Script&lt;/p&gt;
+&lt;p&gt;4.學習範例內Run.py各行的意思&lt;/p&gt;
+&lt;p&gt;import sys ----導入sys&lt;/p&gt;
+&lt;p&gt;from PyQt5 import QtWidgets ----從PyQt5導入QtWidgets&lt;/p&gt;
+&lt;p&gt;from ui import Dialog -----從ui導入Dialog&lt;/p&gt;
+&lt;p&gt;以下為單獨執行專案時&lt;/p&gt;
+&lt;p&gt;if &lt;strong&gt;name&lt;/strong&gt; == "&lt;strong&gt;main&lt;/strong&gt;":  -----如果單獨執行專案時使用下面的程式&lt;/p&gt;
+&lt;p&gt;app = QtWidgets.QApplication(sys.argv) ----app等於QtWidgets內的QApplication的sys的argv方法&lt;/p&gt;
+&lt;p&gt;win = Dialog.Dialog() ----win等於Dialog內的Dialog方法&lt;/p&gt;
+&lt;p&gt;win.show() -----啟動win(win等於Dialog內的Dialog方法)&lt;/p&gt;
+&lt;p&gt;sys.exit(app.exec()) -----結束時使用sys內的exit方法內的app方法內的exec方法&lt;/p&gt;
+&lt;h3&gt;額外內容:&lt;/h3&gt;
+&lt;p&gt;one.clicked.connect(self.number) ----按下one按鈕執行number方法&lt;/p&gt;
+&lt;p&gt;def number(self):  ----方法 number&lt;/p&gt;</content><category term="學習心得"></category><category term="計算機程式"></category></entry><entry><title>計算機程式CPB 第九週</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w9.html" rel="alternate"></link><published>2017-11-06T10:00:00+08:00</published><updated>2017-11-06T10:00:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-11-06:/40623228/doc/trunk/blog/40623228-w9.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;w9 -個人報告&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;w9 -個人報告&lt;/p&gt;
+
+
+&lt;h3&gt;&lt;a href="https://cpb.kmol.info/40623228/doc/trunk/28mid_report.html"&gt;40623228 簡報&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;影片&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/241416082" width="640" height="528" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/241416082"&gt;-機械設計系-計算機程式-40623228-W9-個人簡報&lt;/a&gt; from &lt;a href="https://vimeo.com/user73141853"&gt;陳永錩&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;iframe width="640" height="347" src="https://www.youtube.com/embed/NRz0Msj-l98" frameborder="0" gesture="media" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://www.youtube.com/embed/NRz0Msj-l98"&gt;虎尾科技大學 機械設計系 計算機程式 40623228 W9 個人簡報&lt;/a&gt; from &lt;a href="https://www.youtube.com/channel/UCWlPFcsXkTvwK3xB0bE7HMA?view_as=subscriber"&gt;陳永錩&lt;/a&gt; on &lt;a href="https://www.youtube.com"&gt;youtube&lt;/a&gt;.&lt;/p&gt;</content><category term="學習心得"></category><category term="計算機程式"></category></entry><entry><title>計算機程式CPB 第八週</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w8.html" rel="alternate"></link><published>2017-10-30T17:00:00+08:00</published><updated>2017-10-30T17:00:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-10-30:/40623228/doc/trunk/blog/40623228-w8.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.for迴圈:&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.for迴圈:&lt;/p&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kr"&gt;class&lt;/span&gt; &lt;span class="nx"&gt;w8&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+
+    &lt;span class="nx"&gt;def&lt;/span&gt; &lt;span class="nx"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;star&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+
+    &lt;span class="nx"&gt;self&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;star&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;star&lt;/span&gt;
+
+    &lt;span class="nx"&gt;def&lt;/span&gt; &lt;span class="nx"&gt;diamond&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;w&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;w&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+
+            &lt;span class="nx"&gt;print&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nx"&gt;w&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot; &amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nx"&gt;self&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;star&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="nx"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;w&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+
+            &lt;span class="nx"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot; &amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;w&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nx"&gt;self&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;star&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+ &lt;span class="nx"&gt;w&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nx"&gt;w8&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+ &lt;span class="nx"&gt;w&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;diamond&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;2.eric6新增專案與基本操作&lt;/p&gt;
+&lt;h3&gt;影片&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/241287229" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/241287229"&gt;虎尾科技大學-機械設計系-計算機程式-40623228 for迴圈 eric6&lt;/a&gt; from &lt;a href="https://vimeo.com/user73141853"&gt;陳永錩&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;iframe width="640" height="347" src="https://www.youtube.com/embed/k4BDpqkpsUI" frameborder="0" gesture="media" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://www.youtube.com/embed/k4BDpqkpsUI"&gt;虎尾科技大學 機械設計系 計算機程式 40623228 for迴圈 eric6&lt;/a&gt; from &lt;a href="https://www.youtube.com/channel/UCWlPFcsXkTvwK3xB0bE7HMA?view_as=subscriber"&gt;陳永錩&lt;/a&gt; on &lt;a href="https://www.youtube.com"&gt;youtube&lt;/a&gt;.&lt;/p&gt;</content><category term="學習心得"></category><category term="計算機程式"></category></entry><entry><title>計算機程式第七週學習心得</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w7-exam.html" rel="alternate"></link><published>2017-10-23T14:30:00+08:00</published><updated>2017-10-23T14:30:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-10-23:/40623228/doc/trunk/blog/40623228-w7-exam.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;W7 Exam&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;W7 Exam&lt;/p&gt;
+
+
+&lt;h3&gt;影片&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/239473701" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/239473701"&gt;虎尾科技大學-機械設計系-計算機程式-40623228&lt;/a&gt; from &lt;a href="https://vimeo.com/user73141853"&gt;陳永錩&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;iframe width="640" height="347" src="https://www.youtube.com/embed/f91Cut85zl8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=f91Cut85zl8&amp;t=2s"&gt;虎尾科技大學-機械設計系-計算機程式-40623228&lt;/a&gt; from &lt;a href="https://www.youtube.com/channel/UCWlPFcsXkTvwK3xB0bE7HMA?view_as=subscriber"&gt;陳永錩&lt;/a&gt; on &lt;a href="https://www.youtube.com"&gt;youtube&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;學習心得&lt;/h3&gt;
+&lt;p&gt;W1-W6學習了Fossil近遠端的操作還有網誌維護，用shareX拍攝影片 ，編寫自己倉儲內的wiki，eric6做計算機的按鍵&lt;/p&gt;
+&lt;h3&gt;成績&lt;/h3&gt;
+&lt;p&gt;1.每週出席情況:100&lt;/p&gt;
+&lt;p&gt;2.紙本筆記:70&lt;/p&gt;
+&lt;p&gt;3.隨身碟內容:70&lt;/p&gt;
+&lt;p&gt;4.個人倉儲內容:70&lt;/p&gt;
+&lt;p&gt;5.各週上課摘要:85&lt;/p&gt;
+&lt;p&gt;6.自評分數:79&lt;/p&gt;</content><category term="學習心得"></category><category term="計算機程式"></category></entry><entry><title>計算機程式CPB 第六週</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w6.html" rel="alternate"></link><published>2017-10-16T17:00:00+08:00</published><updated>2017-10-16T17:00:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-10-16:/40623228/doc/trunk/blog/40623228-w6.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.點擊 start.bat 啟動隨身系統&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.點擊 start.bat 啟動隨身系統&lt;/p&gt;
+
+
+&lt;p&gt;2.到自己的信箱內收取預設的倉儲密碼，在到自己的倉儲內登入，並將專案名稱改成自己的學號&lt;/p&gt;
+&lt;p&gt;3.重新設定自己的倉儲的帳號密碼，並且把timeline的時間改回台灣時間&lt;/p&gt;
+&lt;p&gt;4.創建新的wiki並將倉儲封面的wiki修改內容，可以到home看修改的內容&lt;/p&gt;
+&lt;p&gt;5.設定自己的倉儲的帳號密碼和timeline的時間&lt;/p&gt;
+&lt;p&gt;6.fossil clone自己的倉儲和4052範本的倉儲&lt;/p&gt;
+&lt;p&gt;7.開啟fossil目錄在裡面fossil clone再，開啟wd目錄在裡面分別製作40623228和4052的目錄，為了分開兩個倉儲，在使用fossil open開啟40623228、4052兩個倉儲將範本內的的東西複製到自己的倉儲目錄裡面，用fossil add .增加到自己的倉儲內，用fossil commit -m上傳到遠端&lt;/p&gt;
+&lt;p&gt;8.當資料變更時, 利用 fossil status 查看內容, 需要時利用 fossil delete 修正&lt;/p&gt;
+&lt;p&gt;利用 fossil clone和 fossil open 後以 Leo Editor 修改網誌,作者名稱後,在轉檔過程會刪除之前 作者名稱, 造成 Fossil資料檢查時無法對應之前的資料, 因此必須再用 fossil delete blog/author/yen.html 將資料刪除後, 再 fossil commit -m 更新遠端版本.&lt;/p&gt;
+&lt;p&gt;若要在近端檢查可以使用近端格式轉換,利用 https-server按鈕後檢驗, 再轉為遠端格式後推送.&lt;/p&gt;
+&lt;p&gt;9.因為pyc檔為不需要上傳的檔案所以需要&lt;/p&gt;
+&lt;p&gt;在命令列中以 mkdir .fossil-settings 建立所需目錄&lt;/p&gt;
+&lt;p&gt;用SciTe儲存ignore-glob在.fossil-settings目錄裡面&lt;/p&gt;
+&lt;p&gt;ignore-glob 檔案內容: &lt;em&gt;/.git/&lt;/em&gt;, &lt;em&gt;/&lt;em&gt; _pycache&lt;/em&gt; _/&lt;/em&gt;, &lt;em&gt;/&lt;/em&gt;.pyc&lt;/p&gt;
+&lt;p&gt;之後會出現__pycache__目錄&lt;/p&gt;
+&lt;h3&gt;W1-W6 重新復習一次&lt;/h3&gt;</content><category term="計算機程式"></category><category term="CPB"></category></entry><entry><title>計算機程式CPB 第四週</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w4.html" rel="alternate"></link><published>2017-10-02T17:00:00+08:00</published><updated>2017-10-02T17:00:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-10-02:/40623228/doc/trunk/blog/40623228-w4.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.當資料變更時, 利用 fossil status 查看內容, 需要時利用 fossil delete 修正&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.當資料變更時, 利用 fossil status 查看內容, 需要時利用 fossil delete 修正&lt;/p&gt;
+
+
+&lt;p&gt;利用 fossil clone和 fossil open 後以 Leo Editor 修改網誌,作者名稱後,在轉檔過程會刪除之前 作者名稱, &lt;/p&gt;
+&lt;p&gt;造成 Fossil資料檢查時無法對應之前的資料, 因此必須再用 fossil delete blog/author/yen.html 將資料刪除後, 再 fossil commit -m 更新遠端版本.&lt;/p&gt;
+&lt;p&gt;若要在近端檢查可以使用近端格式轉換,利用 https-server按鈕後檢驗, 再轉為遠端格式後推送.&lt;/p&gt;
+&lt;p&gt;2.因為pyc檔為不需要上傳的檔案所以需要&lt;/p&gt;
+&lt;p&gt;在命令列中以 mkdir .fossil-settings 建立所需目錄&lt;/p&gt;
+&lt;p&gt;用SciTe儲存ignore-glob在.fossil-settings目錄裡面&lt;/p&gt;
+&lt;p&gt;ignore-glob 檔案內容: &lt;em&gt;/.git/&lt;/em&gt;, &lt;em&gt;/&lt;em&gt; _pycache&lt;/em&gt; _/&lt;/em&gt;, &lt;em&gt;/&lt;/em&gt;.pyc&lt;/p&gt;
+&lt;p&gt;之後會出現__pycache__目錄&lt;/p&gt;</content><category term="計算機程式"></category><category term="CPB"></category></entry><entry><title>計算機程式CPB 第三週</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w3.html" rel="alternate"></link><published>2017-09-25T17:00:00+08:00</published><updated>2017-09-25T17:00:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-09-25:/40623228/doc/trunk/blog/40623228-w3.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.設定自己的倉儲的帳號密碼和timeline的時間&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.設定自己的倉儲的帳號密碼和timeline的時間&lt;/p&gt;
+
+
+&lt;p&gt;2.fossil clone自己的倉儲和4052範本的倉儲&lt;/p&gt;
+&lt;p&gt;3.開啟fossil目錄在裡面fossil clone再，開啟wd目錄在裡面分別製作40623228和4052的目錄，為了分開兩個倉儲，在使用fossil open開啟40623228、4052兩個倉儲將範本內的的東西複製到自己的倉儲目錄裡面，用fossil add .增加到自己的倉儲內，用fossil commit -m上傳到遠端&lt;/p&gt;
+&lt;h3&gt;練習&lt;/h3&gt;
+&lt;p&gt;fossil clone&lt;/p&gt;
+&lt;p&gt;fossil open&lt;/p&gt;
+&lt;p&gt;fossil add .&lt;/p&gt;
+&lt;p&gt;fossil commit -m --no-warnings&lt;/p&gt;</content><category term="計算機程式"></category><category term="CPB"></category></entry><entry><title>計算機程式CPB 第二週</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w2.html" rel="alternate"></link><published>2017-09-18T17:00:00+08:00</published><updated>2017-09-18T17:00:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-09-18:/40623228/doc/trunk/blog/40623228-w2.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.到自己的信箱內收取預設的倉儲密碼，在到自己的倉儲內登入，並將專案名稱改成自己的學號&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;1.到自己的信箱內收取預設的倉儲密碼，在到自己的倉儲內登入，並將專案名稱改成自己的學號&lt;/p&gt;
+
+
+&lt;p&gt;2.重新設定自己的倉儲的帳號密碼，並且把timeline的時間改回台灣時間&lt;/p&gt;
+&lt;p&gt;3.創建新的wiki並將倉儲封面的wiki修改內容，可以到home看修改的內容&lt;/p&gt;
+&lt;h3&gt;wiki編寫格式:&lt;/h3&gt;
+&lt;p&gt;1.大標格式:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;h1&amp;gt;x.....x&amp;lt;h1&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;2.網址聯結:
+[https://.........]=https://.........&lt;/p&gt;
+&lt;p&gt;[https://........|xxx]=xxx---文字聯結網址&lt;/p&gt;
+&lt;h3&gt;英文單子:&lt;/h3&gt;
+&lt;p&gt;grant-准許&lt;/p&gt;
+&lt;p&gt;privileges-特權&lt;/p&gt;
+&lt;p&gt;capabilities-能力&lt;/p&gt;
+&lt;p&gt;uel-uniform resource locator-統一資料定位&lt;/p&gt;
+&lt;p&gt;certificate-簽章&lt;/p&gt;</content><category term="計算機程式"></category><category term="CPB"></category></entry><entry><title>計算機程式CPB 第一週</title><link href="https://cpb.kmol.info/40623228/doc/trunk/blog/40623228-w1.html" rel="alternate"></link><published>2017-09-11T17:00:00+08:00</published><updated>2017-09-11T17:00:00+08:00</updated><author><name>40623228</name></author><id>tag:cpb.kmol.info,2017-09-11:/40623228/doc/trunk/blog/40623228-w1.html</id><summary type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;點擊 start.bat 啟動隨身系統, 在 SCiTE 編輯器中練習執行 calculator.py 與 helloworld.c&lt;/p&gt;
+</summary><content type="html">&lt;h3&gt;課堂摘要&lt;/h3&gt;
+&lt;p&gt;點擊 start.bat 啟動隨身系統, 在 SCiTE 編輯器中練習執行 calculator.py 與 helloworld.c&lt;/p&gt;
+
+
+&lt;h2&gt;機械設計:&lt;/h2&gt;
+&lt;p&gt;是透過詳細思慮考量, 將固、流、軟體等裝在一起, 展現特定功能之具體規劃表達.&lt;/p&gt;
+&lt;h2&gt;六種表達方式:&lt;/h2&gt;
+&lt;p&gt;1.口語&lt;/p&gt;
+&lt;p&gt;2.文字&lt;/p&gt;
+&lt;p&gt;3.2D&lt;/p&gt;
+&lt;p&gt;4.3D&lt;/p&gt;
+&lt;p&gt;5.量化表達&lt;/p&gt;
+&lt;p&gt;6.實體表達.&lt;/p&gt;
+&lt;p&gt;創造力的三個基本要素:&lt;/p&gt;
+&lt;p&gt;1.自學力&lt;/p&gt;
+&lt;p&gt;2.執行力&lt;/p&gt;
+&lt;p&gt;3.想像力&lt;/p&gt;</content><category term="計算機程式"></category><category term="CPB"></category></entry></feed>
